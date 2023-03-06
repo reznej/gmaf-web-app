@@ -1,0 +1,25 @@
+.navbar {
+  padding: 1rem 32px;
+}
+
+.nav-item {
+  text-align: right;
+  padding-left: 0.5rem;
+}
+
+.nav-link {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+ul.navbar-nav {
+  position: relative;
+  top: -1.8rem;
+  right: 5rem;
+  height: 0 !important;
+}
+.categoryButton {
+  position: relative;
+  top: -0.25rem;
+}

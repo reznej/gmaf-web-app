@@ -1,0 +1,74 @@
+.detailCard {
+  height: 16rem;
+}
+
+.detailCardImgContainer {
+  height: 16rem;
+  /* padding-right: 6px; */
+  padding-left: 6px;
+}
+
+.detailCardContentContainer {
+  height: 16rem;
+}
+
+.detailCardImg {
+  width: 100%;
+  height: 16rem !important;
+  object-fit: cover !important;
+}
+
+.boxShadow {
+  box-shadow: 3px 2px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.contentToggleButton {
+  border: none;
+  background-color: transparent;
+}
+
+.icon:hover {
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+
+.closeButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.closeButton:hover {
+  opacity: 100;
+  transition: 0.7s;
+}
+
+.p {
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.truncateText-1 {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.info-tile {
+  width: 5rem;
+  height: 5rem;
+}
+
+.carousel-card {
+  height: 12rem;
+  overflow: hidden;
+}
+
+.contentImg {
+  width: 100%;
+  height: 8rem;
+  object-fit: cover !important;
+}
